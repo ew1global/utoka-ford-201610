@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>FORD-BORN</title>
+	<link href="css/jquery.bxslider.css" rel="stylesheet" />
+	<link href="style.css" rel="stylesheet">
+	<link href="css/nav.css" rel="stylesheet">
+	<link rel="shortcut icon" type="image/png" href="img/w3-favicon.png"/>
+</head>
+<body>
+	<a name="home">
+
+<!--- Start Navigation -->
+
+		<script src="js/jquery-1.11.2.min.js"></script>
+		<script src="js/main.js"></script> <!--- For Navigation -->
+
+		<div class="nav-outer">
+			<div class="nav-wrap">
+				<nav class="navigation">
+					<div class="logo"><img src="img/logo.png"></div>
+					<div class='nav' nav-menu-style="yoga">
+						<ul class="nav-menu">
+							<li><a href="#home">Home</a></li>
+							<li><a href="#about">About</a></li>
+							<li><a href="#services">Services</a></li>
+							<li><a href="#reviews">Reviews</a></li>
+							<li><a href="#contact">Contact</a></li>
+					</div>
+				</nav>
+			</div>
+		</div>
+	<div class="nav-clear"></div>
+<!--- End Navigation -->
+	<div class="clearfix"></div>
+
+<!--- Start Slider -->
+		<script src="js/jquery.bxslider.min.js"></script><!--For Image Slider-->
+		<div class="slide-wrap">
+			<secton class="slider">
+
+				<ul class="slider1">
+					<li><img src=slider-image-3.png"></li>
+					<li><img src="slider-image-2.png"></li>
+					<li><img src="slider-image-1.png"></li>
+				</ul>
+
+			</section>
+
+<!--ADD IMAGE SLIDES HERE-->
+		</div>
+		<script type="text/javascript">
+			$('.slider1').bxSlider({
+				mode: 'fade',
+				captions: false,
+				auto:true,
+				pager:false,
+
+			});
+			$('.slider2').bxSlider({
+				pager:false,
+				captions: true,
+				maxSlides: 3,
+				minSlides: 1,
+				slideWidth: 230,
+				slideMargin: 10
+			});
+			$('.slider3').bxSlider({
+				mode: 'fade',
+				captions: false,
+				auto:true,
+				pager:false,
+				controls:false,
+			});
+		</script>
+<!--- End Slider -->
+
+<a name="about">
+
+<!-- Start Banner Wrapper-->
+<div id="banner-wrapper">
+	<h1>Welcome to our website</h1>
+	<div class="one-half">
+		<h3>Heading Title Section</h3>
+		<p>Lorem ipsum dolor sit amet, consectetur...</p>
+	</div>
+	<div class="one-half">
+		<h3>Heading Title Section</h3>
+		<p>Lorem ipsum dolor sit amet, consectetur...</p>
+	</div>
+</div>
+<!--End Banner Wrapper-->
+<!--Start Parallax Section-->
+<section class="parallax-1">
+<div class="parallax-inner">
+	<section class="one-third">
+		<h3>Heading Title</h3>
+		<p>text goes here</p>
+	</section>
+	<section class="one-third">
+		<h3>Heading Title</h3>
+		<p>text goes here</p>
+	</section>
+	<section class="one-third">
+		<h3>Heading Title</h3>
+		<p>text goes here</p>
+	</section>
+</div>
+</section>
+	<a name="services">
+
+		<a name="reviews">
+
+			<a name="contact">
+<!--End Parallax Section-->
+</body>
+</html>
